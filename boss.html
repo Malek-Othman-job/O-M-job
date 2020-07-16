@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript" href="js.js"></script>
+	<title>Boss</title>
+	<style type="text/css" >
+		body{
+			background-image: url("https://kariyermeslek.com.tr/wp-content/uploads/2019/07/insan-kaynaklari-egitimi.jpg");
+            background-size:cover;
+}
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: block;
+  padding: 20px;
+  position: relative;
+
+  
+}
+.border{
+	height: auto;
+    width: 300px;
+    position: relative;
+    right: -12px;
+    bottom: 16px;
+    }
+    .CName{
+    	width: auto;
+        height: 30px;
+    }
+    h2{
+    	position: relative;
+    right: -2px;
+    top: 7px;
+
+    }
+	</style>
+</head>
+<body>
+	<div class="topnav">
+  <a class="active" href="main Page.html">Home</a>
+	</div>
+<h2>Required Informations :</h2>
+
+<div class="border">
+  <form action="/action_page.php">
+    <label class="CName" for="Cname">Company Name</label><br>
+    <input class="CName" type="text"  name="firstname"  placeholder="Company name.." required><br>
+
+    <label class='CName' for="lname">Company Adress</label><br>
+    <input class='CName' type="text"  name="lastname" placeholder="Company Adress.." required><br>
+    <label class='CName' for="email">Company E-mail</label><br>
+    <input class='CName' type="text"  name="email" placeholder="Company E-mail.." required><br>
+    <label class='CName' for="number">Phone Number</label><br>
+    <input class='CName' type="text"  name="number" placeholder="Phone number.." required><br>
+
+    <label class="CName" for="State">State</label><br>
+    <select class="CName" name="city"><br>
+    	<option value="">---</option>
+      <option value="tunis">Tunis</option>
+      <option value="Bizerte">Bizerte</option>
+      <option value="Nabeul">Nabeul</option>
+      <option value="sousse">Sousse</option>
+      <option value="djerba">Djerba</option>
+    </select><br>
+    <label class="CName" for="field">Field Of Your Activitie</label><br>
+    <select class="CName" name="field"><br>
+    	<option value="">---</option>
+      <option value="webdev">Web Development</option>
+      <option value="marketing">Marketing</option>
+      <option value="communcation">communication</option>
+      <option value="accounting">Accounting</option>
+    </select><br>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
